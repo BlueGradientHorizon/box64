@@ -886,3 +886,6 @@ GO(vkUnmapMemory2KHR, iFpp)
 
 // VK_EXT_device_fault
 GO(vkGetDeviceFaultInfoEXT, iFppp)
+
+// VK_EXT_pipeline_properties
+GO(vkGetPipelinePropertiesEXT, iFppp)
