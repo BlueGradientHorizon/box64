@@ -897,3 +897,8 @@ GO(vkGetPipelinePropertiesEXT, iFppp)
 // VK_NV_copy_memory_indirect
 GO(vkCmdCopyMemoryIndirectNV, vFpUuu)
 GO(vkCmdCopyMemoryToImageIndirectNV, vFpUuuUip)
+
+// VK_NV_device_generated_commands_compute
+GO(vkCmdUpdatePipelineIndirectBufferNV, vFpiU)
+GO(vkGetPipelineIndirectDeviceAddressNV, UFpp)
+GO(vkGetPipelineIndirectMemoryRequirementsNV, vFppp)
