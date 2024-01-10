@@ -638,6 +638,7 @@ GO(vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI, iFpUp)
 
 // VK_HUAWEI_cluster_culling_shader
 GO(vkCmdDrawClusterHUAWEI, vFpuuu)
+GO(vkCmdDrawClusterIndirectHUAWEI, vFpUU)
 
 // VK_INTEL_performance_query
 GO(vkAcquirePerformanceConfigurationINTEL, iFppp)
