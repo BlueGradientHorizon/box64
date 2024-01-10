@@ -893,3 +893,7 @@ GO(vkGetDeviceFaultInfoEXT, iFppp)
 
 // VK_EXT_pipeline_properties
 GO(vkGetPipelinePropertiesEXT, iFppp)
+
+// VK_NV_copy_memory_indirect
+GO(vkCmdCopyMemoryIndirectNV, vFpUuu)
+GO(vkCmdCopyMemoryToImageIndirectNV, vFpUuuUip)
